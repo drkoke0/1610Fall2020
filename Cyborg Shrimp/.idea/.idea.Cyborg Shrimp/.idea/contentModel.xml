@@ -9,9 +9,11 @@
         <e p="NumberData.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CHaracterMover.cs" t="Include" />
+          <e p="HeatlhPowerup.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PLayerScore.cs" t="Include" />
+          <e p="PowerUp.cs" t="Include" />
         </e>
       </e>
       <e p="Cyborg Shrimp.sln" t="IncludeFlat" />
