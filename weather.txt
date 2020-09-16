@@ -2,3 +2,4 @@ Sunny 120 Degrees Aug 25
 sunny 150 Degrees Aug 26
 snow 20 Degrees 9/10/2020
 Lava 500 Degrees 9/11/2020
+Ice Storms -200 Degrees 9/15/2020
