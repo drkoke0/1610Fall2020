@@ -15,6 +15,7 @@
           <e p="PlayerHealth.cs" t="Include" />
           <e p="PLayerScore.cs" t="Include" />
           <e p="PowerUp.cs" t="Include" />
+          <e p="UnityEvents.cs" t="Include" />
         </e>
       </e>
       <e p="Cyborg Shrimp.sln" t="IncludeFlat" />

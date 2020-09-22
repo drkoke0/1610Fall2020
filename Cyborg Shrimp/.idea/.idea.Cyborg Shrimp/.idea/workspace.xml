@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f7e6a324-2fac-4017-95cf-48c190fe9bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ship.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ship.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +40,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HeatlhPowerup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AmmoPowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UnityEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +92,8 @@
       <workItem from="1599342907033" duration="2285000" />
       <workItem from="1599411988293" duration="5337000" />
       <workItem from="1599937825083" duration="2504000" />
-      <workItem from="1600548229853" duration="2180000" />
+      <workItem from="1600548229853" duration="2780000" />
+      <workItem from="1600637326846" duration="1493000" />
     </task>
     <servers />
   </component>
