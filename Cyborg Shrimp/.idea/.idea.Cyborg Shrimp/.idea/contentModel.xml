@@ -9,6 +9,7 @@
         <e p="NumberData.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AmmoPowerUp.cs" t="Include" />
+          <e p="ApplyForces.cs" t="Include" />
           <e p="CHaracterMover.cs" t="Include" />
           <e p="HeatlhPowerup.cs" t="Include" />
           <e p="MoverScript.cs" t="Include" />

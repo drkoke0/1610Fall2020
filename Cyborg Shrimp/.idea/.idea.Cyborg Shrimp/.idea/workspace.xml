@@ -24,7 +24,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ship.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ship.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CHaracterMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CHaracterMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CHaracterMover.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CHaracterMover.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,6 +49,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UnityEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" />
       </list>
     </option>
   </component>
@@ -94,6 +100,8 @@
       <workItem from="1599937825083" duration="2504000" />
       <workItem from="1600548229853" duration="2780000" />
       <workItem from="1600637326846" duration="1493000" />
+      <workItem from="1601572750783" duration="3469000" />
+      <workItem from="1601596164311" duration="1941000" />
     </task>
     <servers />
   </component>

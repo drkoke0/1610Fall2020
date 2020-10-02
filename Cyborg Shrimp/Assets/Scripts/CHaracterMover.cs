@@ -1,18 +1,31 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript1 : MonoBehaviour
+public class CharacterMover : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    public CharacterController controller;
+    public float moveSpeed = 3f, gravity = -9.81f, jumpForce = 30f;
         
-    }
-
-    // Update is called once per frame
-    void Update()
+    private Vector3 moveDirection,;
+    private float yDirection;
+    private void Update()
     {
+        var moveSpeedInput = moveSpeed * Input.GetAxis("Horizontal");
+        yDirection += gravity * Time.deltaTime;
+        if (controller.isGrounded)
+        {
+            yDirection = -1f;
+        }
+        moveDirection.Set(newX: moveSpeedInput, newY: yDirection, newZ: 0);
         
+        if (Input.GetButtonDown("Jump");
+        {
+            moveDirection.y += jumpForce;
+        }
+        
+        var movement = moveDirection * Time.deltaTime;
+        controller.Move(movement);
     }
 }
