@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Instancer : MonoBehaviour
+public class Mammal : Animal
 {
-    public GameObject prefab;
-    public float delay = 2f;
-    
-    IEnumerator Start()
+   public Color haircolor = Color.green
+    void Start()
     {
-        while (true)
-            
+        
     }
 
     // Update is called once per frame

@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Instancer : MonoBehaviour
+public class Dog : Mammal
 {
-    public GameObject prefab;
-    public float delay = 2f;
-    
-    IEnumerator Start()
+    public float barkVolume = 1f
+    void Start()
     {
-        while (true)
-            
+        
     }
 
     // Update is called once per frame
