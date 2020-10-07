@@ -33,6 +33,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Mammal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dog.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +105,7 @@
       <workItem from="1600637326846" duration="1493000" />
       <workItem from="1601572750783" duration="3469000" />
       <workItem from="1601596164311" duration="1977000" />
-      <workItem from="1601663838259" duration="1465000" />
+      <workItem from="1601663838259" duration="2239000" />
     </task>
     <servers />
   </component>
