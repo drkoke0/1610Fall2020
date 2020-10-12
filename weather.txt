@@ -4,3 +4,4 @@ snow 20 Degrees 9/10/2020
 Lava 500 Degrees 9/11/2020
 Ice Storms -200 Degrees 9/15/2020
 Spiders - 90 Degrees, 9/17/2020
+Bananas - 40 Degrees, 10/11/2020
