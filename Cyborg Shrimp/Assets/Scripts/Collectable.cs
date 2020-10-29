@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dog : Mammal
+public class Collectible : MonoBehaviour
 {
-    public float barkVolume = 1f;
+    public float powerLevel = 1f;
+    public int cashValue = 10;
+    public Sprite art;
+    public Color artColor = Color.blue;
+
     void Start()
     {
         

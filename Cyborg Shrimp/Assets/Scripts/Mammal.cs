@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Mammal : Animal
 {
-   public Color haircolor = Color.green
+    public Color haircolor = Color.green;
     void Start()
     {
         
