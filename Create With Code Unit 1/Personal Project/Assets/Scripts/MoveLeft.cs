@@ -28,7 +28,7 @@ public class MoveLeft : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Debug.Log("Player has collided with enemy.")
+            Debug.Log("Player has collided with enemy.");
                 }
     }
 
