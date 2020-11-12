@@ -1024,5 +1024,10 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8331811255030091566, guid: cf9cc5dc123dfbd46b43b1efa98d7dd5,
+        type: 3}
+      propertyPath: xRange
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf9cc5dc123dfbd46b43b1efa98d7dd5, type: 3}
