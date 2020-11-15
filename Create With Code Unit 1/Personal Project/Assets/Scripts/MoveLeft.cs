@@ -7,9 +7,11 @@ public class MoveLeft : MonoBehaviour
     public float speed = 2.0f;
     private Rigidbody objectRb;
     private float xDestroy = -10f;
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         objectRb = GetComponent<Rigidbody>();
     }
 
@@ -37,6 +39,7 @@ public class MoveLeft : MonoBehaviour
         if (other.gameObject.CompareTag("Powerup"))
         {
             Destroy(other.gameObject);
+            gameManager.UpdateScore(5);
         }
     }
 }
