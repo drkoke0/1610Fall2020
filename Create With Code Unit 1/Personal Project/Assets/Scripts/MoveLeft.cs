@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
-    public float speed = 2.0f;
+    public float speed;
     private Rigidbody objectRb;
     private float xDestroy = -10f;
     private GameManager gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
         objectRb = GetComponent<Rigidbody>();
+        gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        objectRb.transform.Translate(Vector3.left * speed * Time.deltaTime);
+        objectRb.transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         if (transform.position.x < xDestroy)
         {
@@ -39,7 +39,6 @@ public class MoveLeft : MonoBehaviour
         if (other.gameObject.CompareTag("Powerup"))
         {
             Destroy(other.gameObject);
-            gameManager.UpdateScore(5);
         }
     }
 }

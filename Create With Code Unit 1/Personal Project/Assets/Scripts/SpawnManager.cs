@@ -8,11 +8,12 @@ public class SpawnManager : MonoBehaviour
     public GameObject powerup;
 
     private float xEnemySpawn = 12.0f;
-    private float ySpawnRange = 5.0f;
+    private float yMinSpawnRange = 5.0f;
+    private float yMaxSpawnRange = 0.0f;
 
     private float zSpawn = 0f;
 
-    private float enemySpawnTime = 1.0f;
+    public float enemySpawnTime = 1.0f;
     private float startDelay = 1.0f;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnRandomEnemy()
     {
-        float randomY = Random.Range(-ySpawnRange, ySpawnRange);
+        float randomY = Random.Range(yMinSpawnRange, yMaxSpawnRange);
         int randomIndex = Random.Range(0, enemies.Length);
 
         Vector3 spawnPos = new Vector3(xEnemySpawn, randomY, zSpawn);

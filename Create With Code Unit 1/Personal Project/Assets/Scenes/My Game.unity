@@ -699,7 +699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -577.9, y: 202}
+  m_AnchoredPosition: {x: -387, y: 118}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975138414
@@ -1120,6 +1120,7 @@ MonoBehaviour:
   - {fileID: 1436577414195229195, guid: fc266399206bed24b8a3afed4e62e196, type: 3}
   - {fileID: 524629325796415025, guid: 12c21b456b9ff7d43b3497813e7b14f4, type: 3}
   powerup: {fileID: 0}
+  enemySpawnTime: 3
 --- !u!4 &1401855583
 Transform:
   m_ObjectHideFlags: 0
@@ -1325,7 +1326,7 @@ PrefabInstance:
     - target: {fileID: 8331811255030091567, guid: cf9cc5dc123dfbd46b43b1efa98d7dd5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.14
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8331811255030091567, guid: cf9cc5dc123dfbd46b43b1efa98d7dd5,
         type: 3}
