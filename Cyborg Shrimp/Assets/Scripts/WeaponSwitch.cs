@@ -18,6 +18,12 @@ public class WeaponSwitch : ScriptableObject
         AssaultRifle,
         Riveter,
         Mortar,
+        AkimboPistols,
+        DualShotgun,
+        SuperShotgun,
+        GaussCannon,
+        Railgun,
+        Sword,
     }
 
     public Weapons currentWeapon;
@@ -38,6 +44,19 @@ public class WeaponSwitch : ScriptableObject
             case Weapons.Riveter:
                 break;
             case Weapons.Mortar:
+                break;
+            case Weapons.AkimboPistols:
+                break;
+            //function
+            case Weapons.DualShotgun:
+                break;
+            case Weapons.SuperShotgun:
+                break;
+            case Weapons.GaussCannon:
+                break;
+            case Weapons.Railgun:
+                break;
+            case Weapons.Sword:
                 break;
         }
     }
