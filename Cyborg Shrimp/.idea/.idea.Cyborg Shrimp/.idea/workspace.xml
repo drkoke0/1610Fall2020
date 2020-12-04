@@ -22,7 +22,8 @@
     <list default="true" id="f7e6a324-2fac-4017-95cf-48c190fe9bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cyborg Shrimp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Instancer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoverScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForces.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Mammal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Create With Code Unit 1/Prototype 5/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +52,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Animal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Mammal.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -106,6 +105,8 @@
       <workItem from="1601572750783" duration="3469000" />
       <workItem from="1601596164311" duration="1977000" />
       <workItem from="1601663838259" duration="2239000" />
+      <workItem from="1606967075407" duration="367000" />
+      <workItem from="1607050670194" duration="783000" />
     </task>
     <servers />
   </component>
