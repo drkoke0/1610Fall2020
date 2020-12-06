@@ -14,6 +14,9 @@ public class GameManager : MonoBehaviour
     private int score;
     public bool isGameActive;
     public GameObject titleScreen;
+    private int health;
+    private int shield;
+    
     
     // Start is called before the first frame update
     void Start()
